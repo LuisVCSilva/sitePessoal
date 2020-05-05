@@ -1,0 +1,5 @@
+Solves a linear system of equations using the Gauss-Jordan algorithm.
+This command takes two arguments: the matrix A that represents the coefficients of the
+linear system (LHS) and the right side of each equation.
+
+E.g: linsolve "[[1, 1, 1], [2, 1, 2], [1, 2, 3]]" "[6, 10, 14]"

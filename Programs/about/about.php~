@@ -1,0 +1,18 @@
+<?php
+echo json_encode(array(
+     "" => array(
+        "Name" => "Luis Vinicius Costa Silva",
+        "Education" => "BSc. in Computer Science - Federal University of Goiás - Regional Catalão",
+        "Current Occupation" => "Front-End Developer at Jotform/Upwork Freelancer",
+        "Email 1" => "luisviniciuscostasilva@gmail.com",
+        "Email 2" => "luis@420blaze.it",
+        "GitHub" => "https://github.com/luisvcsilva",
+        "CNPQ Lattes" => "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4322249E1",
+        "Upwork Profile" => "https://www.upwork.com/o/profiles/users/_~01ca6c6221daa408f8/",
+        "A litte bit about me:" => "I'm 22 years old, and I love solving problems and programming my way into an efficient and elegant solution. I'm currently working as a Front-End Developer at Jotform (I was hired through Upwork) and I'm interested in getting a Master's Degree in the future, something related to Computational Physics or Mathematical Modelling.
+My areas of interest are very broad, I really like artificial inteligence (optimization techniques), image processing, augmented/virtual reality, computational physics and computer science in general.",
+	"\n" => "",
+        "A little bit about this website:" => "This website is basically a 'terminal-like' application in which all commands inputed are sent to a PHP server through AJAX, every command that you call is actually a PHP script that runs in the server and return it's output as a JSON to the page, if the command you typed is not associated with any PHP script in the server, the command is interpreted as a Javascript statement, running on your side. Every PHP script will return a JSON, if this JSON has a key named 'eval', the code will be automatically executed in your browser. I made my personal website like this because it's easier to use (no buttons or menus, you just type what you want), and I can easily program more stuff here and care only to the 'logic' stuff, no interface design (I could do it if I wanted it, I just don't)."
+     )
+));
+?>

@@ -1,0 +1,3 @@
+Change the working directory of the shell.
+This command takes one argument, i.e: the name of the directory or "..", meaning the upper directory.
+You can't use this command to access directories in subfolders, you have to access each folder one at the time.

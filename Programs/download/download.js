@@ -1,0 +1,24 @@
+function UrlExists(url) {
+var http = new XMLHttpRequest();
+http.open('HEAD', url, false);
+http.send();
+return http.status!=404;
+}
+
+function Download (filename) {
+if(filename.includes(".") && UrlExists(filename)) {
+imprime(false,'Downloading file ``'+filename+'´´');
+var link = document.createElement('a');
+link.href = filename;
+link.download = filename;
+document.body.appendChild(link);
+link.click();
+}
+else if (!filename.includes('.')) {
+imprime(false,'You can\'t download folders');
+}
+else {
+alert(filename);
+imprime(false,'File does not exist!');
+}
+}

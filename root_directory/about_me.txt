@@ -1,0 +1,41 @@
+
+( \      |\     /|\__   __/(  ____ \
+| (      | )   ( |   ) (   | (    \/
+| |      | |   | |   | |   | (_____ 
+| |      | |   | |   | |   (_____  )
+| |      | |   | |   | |         ) |
+| (____/\| (___) |___) (___/\____) |
+(_______/(_______)\_______/\_______)
+                                    
+          _______  _______ _________ _               _______ 
+|\     /|(  ____ \(  ____ \\__   __/( \    |\     /|(  ___  )
+| )   ( || (    \/| (    \/   ) (   | (    | )   ( || (   ) |
+| |   | || |      | (_____    | |   | |    | |   | || (___) |
+( (   ) )| |      (_____  )   | |   | |    ( (   ) )|  ___  |
+ \ \_/ / | |            ) |   | |   | |     \ \_/ / | (   ) |
+  \   /  | (____/\/\____) |___) (___| (____/\\   /  | )   ( |
+   \_/   (_______/\_______)\_______/(_______/ \_/   |/     \|
+                                                             
+Name: Luis Vinicius Costa Silva
+Education: Master Degree Student in Modelling and Optimization -- ImTec -- UFG Regional Catalão
+Email 1: luisviniciuscostasilva@gmail.com
+Email 2: luis@420blaze.it
+GitHub: https://github.com/luisvcsilva
+CNPQ Lattes: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4322249E1
+Upwork Profile: https://www.upwork.com/o/profiles/users/_~01ca6c6221daa408f8/
+
+I'm 23 years old, and I love solving problems and programming my way into an efficient and elegant solution. I'm currently studying 
+hybrid models for crowd simulation. My interests are focused in Computational Modelling.
+
+A little bit about this website:
+This website is a CLI application in which all commands inputed are sent to an Apache server using AJAX, 
+every command that you call is actually a PHP script that runs in the server and return it's output as a JSON 
+to the page, if the command you typed is not associated with any PHP script in the server, the command is interpreted as a 
+Javascript statement, running on your side. 
+Every PHP script will return a JSON, if this JSON has a key named 'eval', the code
+will be automatically executed in your browser. 
+
+I made my personal website like this because it's easier to use 
+(no buttons or menus, you just type what you want), and I can easily program more
+stuff here and care only to the 'logic' stuff, no interface design 
+(I could do it if I wanted it, I just don't).

@@ -1,0 +1,18 @@
+function UrlExists(url) {
+var http = new XMLHttpRequest();
+http.open('HEAD', url, false);
+http.send();
+return http.status!=404;
+}
+
+function Cat (file_content) {
+if(file_content.includes(".") && UrlExists(file_content)) {
+imprime(false,file_content);
+}
+else if (!file_content.includes('.')) {
+imprime(false,'You can\'t cat extensionless files');
+}
+else {
+imprime(false,'File does not exist!');
+}
+}

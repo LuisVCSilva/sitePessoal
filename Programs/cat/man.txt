@@ -1,0 +1,2 @@
+Concatenate files and print on the standard output.
+This command takes one argument (filename).

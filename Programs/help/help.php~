@@ -1,0 +1,16 @@
+<?php
+echo json_encode(array(
+     "" => "Welcome to my Personal Home Page => Pretty cool right?This whole website is a terminal-like application, just type the command you want and it's output will be shown in this page.",
+     "" => "",
+     "" => "This page has much more programs than the ones listed in this help file (like calculators and confidential stuff), since these programs are on the server-side you won't be able to figure out how to call them, so good luck with that!If you type a command that is not recognized as a program, your command will be interpreted as a Javascript statement.",
+     "help" => "Prints this help message",
+     "about" => "Prints some information about me and this website",
+     "test_sound" => "Test your speakers with the standard sine wave signal at 1000 Hz",
+     "clear" => "Clear the terminal screen",
+     "download" => "Downloads a file from the server given its filename",
+     "ls" => "List information about the FILEs (the current directory by default).",
+     "cat" => "Concatenate FILE(s) to standard output.",
+     "cd" => "Changes the shell's current directory"
+     "pwd" => "Print name of current/working directory"
+));
+?>

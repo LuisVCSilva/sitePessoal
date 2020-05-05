@@ -1,0 +1,15 @@
+drwx--x---    5 3835948    48                246 Mar 27  2019 .
+drwx--x---    4 3835948    48                 36 Jul 14  2018 ..
+-rw-r--r--    1 3835948    3835948           168 Feb 18  2019 .htaccess
+-rw-r--r--    1 3835948    3835948           171 Mar 27  2019 001.html
+drwxr-xr-x   12 3835948    3835948           128 Jan  6  2019 Programs
+-rw-r--r--    1 3835948    3835948            98 Feb 18  2019 crossdomain.xml
+-rw-r--r--    1 3835948    3835948           987 Jan  6  2019 dumprequest.php
+-rw-r--r--    1 3835948    3835948           139 Jan  6  2019 evaluate.php
+-rw-r--r--    1 3835948    3835948          4424 Jan  6  2019 index.html
+-rw-r--r--    1 3835948    3835948         86928 Jan  6  2019 jquery.min.js
+drwxr-xr-x    2 3835948    3835948           289 Mar 13  2019 ko
+-rw-r--r--    1 3835948    3835948        535047 Jan  6  2019 math.min.js
+drwxr-xr-x    5 3835948    3835948           120 May  3 01:33 root_directory
+-rw-r--r--    1 3835948    3835948          5639 Jan  6  2019 terminal.js
+-rw-r--r--    1 3835948    3835948        419819 Mar 27  2019 thom.gif

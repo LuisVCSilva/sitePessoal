@@ -1,0 +1,2 @@
+Display some info about me (Luis Vinicius), such as email address, GitHub, education, etc., and a few comments about this website.
+This command takes no arguments.

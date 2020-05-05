@@ -1,0 +1,2 @@
+Given a filename of a file in the server, downloads it to your computer.
+This command takes one argument, i.e: the filename of the file that'll be downloaded.

@@ -1,0 +1,11 @@
+<?php
+
+function cat ($filename) {
+return file_get_contents($_GET["current_directory"]."/".filename);
+}
+
+echo !isset($_GET['arg_0']) ? 
+	json_encode( array("eval" => "imprime(false,'Please specify a file to print/concatenate')" )) :
+	json_encode( array("eval" => cat($_GET["arg_0"])))
+;
+?>

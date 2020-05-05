@@ -1,0 +1,2 @@
+Print lines matching a pattern.
+This command takes two arguments, i.e: string and pattern, the pattern is a regex built by "RegExp" in the JS script.
